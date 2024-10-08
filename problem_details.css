@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+ul.problem-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.problem-list li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+ul.problem-list li a {
+    color: #0033cc;
+    text-decoration: none;
+}
+
+ul.problem-list li a:hover {
+    text-decoration: underline;
+}
+
+.question-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.answers label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #550000d7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #550000;
+}
+
+.navigation {
+    margin-top: 20px;
+}
+
+.navigation a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #0033cc;
+    font-weight: bold;
+}
